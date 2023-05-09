@@ -17,7 +17,7 @@ Step 3: After init, replace the ticTacToe.ts file from the src/contracts folder 
     
 Step 4: Have fun!!!
 
-    Example of use -  https://youtu.be/BdDT9R3qxmE
+   Example of use -  https://youtu.be/BdDT9R3qxmE
 
 --------------------------------------------------------
 ORIGINAL VERSION

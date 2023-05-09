@@ -4,7 +4,6 @@ To use this Version:
 
 Step1:
 
-    npm install -g scrypt-cli
     git clone -b main https://github.com/carlosamcruz/tictactoebitcoin
  
 Step 2: Go to the project folder on the cosole terminal    
@@ -17,7 +16,7 @@ Step 3: After init, replace the ticTacToe.ts file from the src/contracts folder 
     npm start
     
 Step 4: Have fun!!!
-
+    Example of use -  https://youtu.be/BdDT9R3qxmE
 --------------------------------------------------------
 ORIGINAL VERSION
 

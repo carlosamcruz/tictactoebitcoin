@@ -1,4 +1,25 @@
 # Tic-Tac-Toe: Bitcoin onchain App Tutorial
+-------------------------------------------------------
+To use this Version:
+
+Step1:
+
+    npm install -g scrypt-cli
+    git clone -b main https://github.com/carlosamcruz/tictactoebitcoin
+ 
+Step 2: Go to the project folder on the cosole terminal    
+
+    npx scrypt-cli init
+
+Step 3: After init, replace the ticTacToe.ts file from the src/contracts folder by the one you find in the folder of this project    
+
+    npx scrypt-cli compile
+    npm start
+    
+Step 4: Have fun!!!
+
+--------------------------------------------------------
+ORIGINAL VERSION
 
 Build your first fully onchain application on Bitcoin.
 

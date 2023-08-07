@@ -8,11 +8,15 @@ Step1:
  
 Step 2: Go to the project folder on the cosole terminal    
 
-    npx scrypt-cli init
+    git config --global user.email "your@example.com"
+    git config --global user.name "Your Name"
+    npx scrypt-cli init (old)
+    npx scrypt-cli@latest init   (new)
 
 Step 3: After init, replace the ticTacToe.ts file from the src/contracts folder by the one you find in the folder of this project    
 
-    npx scrypt-cli compile
+    npx scrypt-cli compile (old)
+    npx scrypt-cli@latest compile   (new)
     npm start
     
 Step 4: Have fun!!!

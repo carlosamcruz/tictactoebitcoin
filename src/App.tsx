@@ -282,10 +282,14 @@ function App() {
       signerRef.current = signerExt;
 
       setsignerRef0(signerExt)
+
+      //await signerExt.connect()
      
-      const { isAuthenticated, error } = await signerExt.requestAuth()
+      //const { isAuthenticated, error } = await signerExt.requestAuth()
+      const { isAuthenticated} = await signerExt.connect()
       if (!isAuthenticated) {
-        throw new Error(error)
+        //throw new Error(error)
+        throw new Error('Connection Error')
       }
 
       setConnected(true);
@@ -316,8 +320,10 @@ function App() {
       // Prompt user to switch accounts
 
     } catch (error) {
-      console.error("sensiletLogin failed", error);
-      alert("sensiletLogin failed")
+      //console.error("sensiletLogin failed", error);
+      console.error("PVT KEY failed", error);
+      //alert("sensiletLogin failed")
+      alert("PVT KEY failed")
     }
   };
 

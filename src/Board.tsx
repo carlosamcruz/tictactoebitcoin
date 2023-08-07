@@ -5,11 +5,13 @@ import Square from './Square';
 function Board(props: any) {
 
   function createBoard(row: number, col: number) {
-    const board = [];
+    //const board = [];
+    const board:any[] = [];
     let cellCounter = 0;
 
     for (let i = 0; i < row; i += 1) {
-      const columns = [];
+      //const columns = [];
+      const columns:any[] = [];
       for (let j = 0; j < col; j += 1) {
         columns.push(renderSquare(cellCounter++));
       }
